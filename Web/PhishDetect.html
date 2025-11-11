@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhishiDetect</title>
+  <link rel="icon" href="https://i.pinimg.com/1200x/59/6f/b5/596fb5dd6326665330d86d2dcfb7409e.jpg" type="image/jpeg">
+
+  <!-- Correct CSS link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!--Header section starts-->
+  <header class="header">
+    <section class="flex">
+      <a href="#" class="logo"><i class="fa fa-shield"></i> PhishDetect</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#phishing">Phishing</a>
+        <a href="#attacks">Attacks</a>
+        <a href="#mitigation">Mitigation</a>
+        <a href="#report">Report</a>
+      </nav>
+    </section>
+  </header>
+  <!--Header section ends-->
+
+  <!--Home section starts-->
+  <section class="home" id="home">
+    <div class="container">
+      <h1>Phishing Link Detector</h1>
+      <table>
+        <tr>
+          <td><label for="urlInput">Enter URL:</label></td>
+          <td><input type="text" id="urlInput" placeholder="https://example.com"></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center">
+            <button id="verifyBtn" class="verifyBtn">Verify</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center">
+            <p id="result"></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="content">
+      <h3>Spot the Scam Before It Spots You</h3>
+      <span>An instant link checker built to keep you safe from phishing traps — fast, smart, reliable.</span>
+      <p>Know before you click.</p>
+    </div>
+  </section>
+  <!--Home Section ends-->
+
+  <!--Phishing Section starts-->
+  <section class="phishing" id="phishing">
+    <h1 class="heading"><span>PHISH</span>ING</h1>
+    <div class="row">
+      <div class="image">
+        <img src="https://i.pinimg.com/1200x/41/83/0d/41830df3edd1e52a4f4a2a3ce5724596.jpg" alt="">
+        <h3>Phisher</h3>
+      </div>
+      <div class="content">
+        <h3>What is Phishing?</h3>
+        <p>Phishing is one of the most deceptive forms of cybercrime — a digital trap designed to steal your trust and your information. Attackers disguise themselves as legitimate companies, friends, or services, luring you into clicking fake links or sharing personal details like passwords and credit card numbers. What looks real could be a cleverly crafted scam. Stay alert, think before you click, and protect yourself — because in the world of phishing, even one wrong move can open the door to danger.</p>
+      </div>
+    </div>
+  </section>
+  <!--Phishing Section ends-->
+
+  <!--Attack section starts-->
+    <section class="attacks" id="attacks">
+      <h1 class="heading"> TYPES OF<span> ATTACKS</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="https://i.pinimg.com/736x/cc/b0/7c/ccb07cf64896c9de228ea5bcd9940995.jpg" height="200" width="200">
+          <h4>Email Phishing</h4>
+          <p>The most common type — attackers send fake emails that look like they’re from trusted companies or institutions, asking you to click malicious links or share sensitive details.</p>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/736x/69/a5/d0/69a5d049ee4d4d60a5a9e944e05ea429.jpg" height="200" width="200">
+            <h4>Spear Phishing</h4>
+            <p>A highly targeted attack aimed at a specific person or organization. Criminals gather personal details to make the message look authentic and convincing.</p>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/736x/90/bd/58/90bd5873671c5f30868b01a49c76b120.jpg"  height="200" width="200">
+          <h4>Website Spoofing</h4>
+          <p>Fraudsters create fake websites that look identical to real ones — tricking you into entering your login credentials or financial information.</p>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/736x/49/8f/c2/498fc2d137d1034920e8e68e4fe54d36.jpg"  height="200" width="200">
+          <h4>Whaling</h4>
+          <p>Aimed at high-profile individuals like CEOs or executives, whaling attacks use personalized messages to access corporate data or authorize fraudulent payments.</p>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/1200x/63/48/6b/63486bfc0d44ada13aee40499cb4be25.jpg"  height="200" width="200">
+          <h4>Vishing</h4>
+          <p>Attackers use phone calls or voice messages, pretending to be customer service agents or officials, to steal sensitive data like bank details or OTPs.</p>
+        </div>
+        <div class="box">
+          <img src="https://i.pinimg.com/736x/b3/f2/76/b3f2762771fe36d15be0d3c3453d947f.jpg"  height="200" width="200">
+          <h4>Smishing</h4>
+          <p>Phishing through text messages that prompt you to click a malicious link, often disguised as a delivery update, bank alert, or prize notification.</p>
+        </div>
+      </div>
+    </section>
+    <!--Attack section ends-->
+
+    <!-- Mitigation Section starts-->
+     <section class="mitigation" id="mitigation">
+      <h1 class="heading">MITI<span>GATION</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <h4>Think Before You Click</h4>
+          <p>Always double-check links before opening them. Hover over URLs to see where they lead — if it looks suspicious or unfamiliar, don’t click.</p>
+        </div>
+        <div class="box">
+          <h4>Verify the Sender</h4>
+          <p>Be cautious of unexpected emails or messages. Look closely at the sender’s email address — even small spelling differences can signal a fake.</p>
+        </div>
+        <div class="box">
+          <h4>Avoid Sharing Personal Information</h4>
+          <p>Legitimate organizations never ask for passwords, PINs, or credit card details over email or text. If asked, it’s likely a scam.</p>
+        </div>
+        <div class="box">
+          <h4>Keep Software Updated & Use Security Tools</h4>
+          <p>Outdated browsers or systems can be exploited by attackers. Always install security updates and patches on time.Enable spam filters, use antivirus software, and turn on multi-factor authentication (MFA). These add extra layers of protection.</p>
+        </div>
+        <div class="box">
+          <h4>Report Suspicious Emails</h4>
+          <p>If you receive a phishing attempt, report it to your IT department, email provider, or local cyber authority. Reporting helps protect others too.</p>
+        </div>
+      </div>
+     </section>
+    <!-- Mitigation Section ends-->
+
+    <!--Report Section Starts-->
+    <section class="report" id="report">
+      <h1 class="heading">RE<span>PORT</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h4>If you received a phishing email</h4>
+                <div class="list">
+                  <p>Do NOT click any links or download attachments.
+                    Then report it as follows:</p>
+                  <p><i class="fa fa-check"></i>To your email provider:
+                    Gmail: Open the email → click the three dots (⋮) → Report phishing.
+                    Outlook / Hotmail: Select the email → click Report → Phishing.
+                    Yahoo Mail: Open the email → click the three dots → Report phishing.</p>
+                  <p><i class="fa fa-check"></i>To government or official authorities.</p>
+                </div>
+            </div>
+            <div class="box">
+                <h4>If it was a text message</h4>
+                <div class="list">
+                  <p><i class="fa fa-check"></i>Do not reply or click any links.</p>
+                  <p><i class="fa fa-check"></i>Forward the message to your carrier’s spam reporting number:
+                      U.S. carriers: Forward to 7726 (SPAM)
+                      U.K.: Forward to 7726 as well</p>
+                  <p><i class="fa fa-check"></i>You can also report it to your country’s cyber authority (as above).</p>
+                </div>
+            </div>
+            <div class="box">
+                <h4>If it was on a website or social media</h4>
+                <div class="list">
+                  <p><i class="fa fa-check"></i>Report directly on the platform (e.g., Facebook, Instagram, X/Twitter → “Report” or “Mark as suspicious”).</p>
+                  <p><i class="fa fa-check"></i>You can also report fake websites to:
+                      Google Safe Browsing: https://safebrowsing.google.com/safebrowsing/report_phish/
+                      Microsoft: https://www.microsoft.com/warningreport</p>
+                </div>
+            </div>
+            <div class="box">
+                <h4>If you entered personal or financial information</h4>
+                <div class="list">
+                  <p><i class="fa fa-check"></i>Change your passwords on affected accounts.</p>
+                  <p><i class="fa fa-check"></i>Enable 2FA (two-factor authentication).</p>
+                  <p><i class="fa fa-check"></i>Contact your bank or credit card company to block or monitor suspicious transactions.</p>
+                  <p><i class="fa fa-check"></i>Run antivirus software if you downloaded anything.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Report Section ends-->
+
+     <!-- footer section starts -->
+    <section class="footer">
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#phishing">Phishing</a>
+            <a href="#attacks">Attacks</a>
+            <a href="#mitigation">Mitigation</a>
+            <a href="#report">Report</a>
+        </div>
+        <div class="credit"> Created by <span> Rishika Pandagre</span>|all rights reserved</div>
+     </section>
+    <!-- footer section ends -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
